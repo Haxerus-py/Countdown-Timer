@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Countdown Timer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image" href="icon.svg">
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <img class ="logo" src="png-clipart-dominion-city-owerri-ikeja-washington-d-c-logo-others-blue-text.png">
+
+            <div class="control-bar">
+                <div id="status" class="status-bar"></div>
+                <div class="kill"></div>
+
+                <img onclick="toggleFullscreen()" src="fullscreen.png" class="fullscreen">
+            </div>
+            
+            <p id="pause-text"class="paused">Paused.</p>
+        </header>
+        
+        <div id="time-up">
+            <p>TIME UP</p>
+
+            <span id="extra-time-counter" class="extra-time-counter"></span>
+        </div>
+
+        <div class="counter-content">
+            <p class="counter">
+                <button id="counter-hours-left">0</button>
+                <button id="counter-hours-right">0</button>
+                <span class="colon">:</span>
+                <button id="counter-minutes-left">0</button>
+                <button id="counter-minutes-right">0</button>
+                <span class="colon">:</span>
+                <button id="counter-seconds-left">0</button>
+                <button id="counter-seconds-right">0</button>
+            </p>
+        </div>
+
+        <footer>
+            <div class="real-time-content">
+                <p class="real-time">10:28am</p>
+            </div>
+
+            <div class="creator-name">
+                <p>Chiemeka.</p>
+            </div>
+        </footer>
+    </body>
+</html>

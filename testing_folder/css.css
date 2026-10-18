@@ -1,0 +1,19 @@
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 550px;
+  }
+  
+  dialog h2 {
+      margin-top: 20px;
+      font-family: "Beirut";
+      text-align: center;
+  }
+  
+  /* Style the background overlay */
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Dimmed background */
+    backdrop-filter: blur(4px);            /* Blur effect */
+  }

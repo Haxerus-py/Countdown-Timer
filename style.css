@@ -1,0 +1,172 @@
+:root {
+    --forest-text-color: #FCFCE1;
+    --forest-xbackground-color: #1A1A0E;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    overflow-x: hidden;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1A1A0E;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+footer {
+}
+
+#time-up {
+    display: none;
+    width: 1100px;
+    height: 435px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -72%);
+    background-color: #ee393f;
+    border-radius: 16px;
+}
+
+#time-up p {
+    font-size: 237.1px;
+    font-family: 'DIN Alternate';
+    color: #0c0c0a;
+    text-align: center;
+    margin: auto auto;
+    transform: translateY(35%) 
+
+}
+
+.control-bar {
+    display: flex;
+    max-width: 200px;
+    gap: 12px;
+    align-items: center;
+    margin: auto;
+}
+
+.status-bar {
+    background-color: #FFFD4C;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.kill {
+    display: none;
+    border-radius: 25px;
+    width: 0;
+    height: 0;
+    border: 8px solid rgb(255, 0, 0);
+}
+
+.counter-content {
+    margin: auto auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    font-size: 207.1px;
+    font-family: 'DIN Alternate';
+    color: #FCFCE1;
+    text-align: center;
+}
+
+.counter button {
+    font-size: 192px;
+    font-family: 'DIN Alternate';
+    color: #FCFCE1;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.colon {
+    margin-bottom: 120px;
+}
+
+.real-time {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-family: 'DIN Alternate';
+    color: #FCFCE1;
+    font-size: 48px;
+    margin: auto 0;
+}
+
+.paused {
+    font-size: 92px;
+    font-family: 'DIN Alternate';
+    color: #FCFCE1;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.extra-time-counter {
+    font-family: 'DIN Alternate';
+    color: #f9f9f9;
+    font-size: 115px;
+    margin-top: 180px;
+    text-align: center;
+    background-color: #a01e1e;
+    border-radius: 40px;
+}
+
+.extra-time-bubble {
+    /*! max-width: fit-content; */
+    /*! /*! width: 100%; */ */
+    height: 50px;
+    background-color: #ee393f;
+    text-align: center;
+    margin-top: 210px;
+    transform: translateX(50%);
+}
+
+.fullscreen {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.creator-name p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'DIN Alternate';
+    color: #FCFCE1;
+    font-size: 18px;
+    text-align: right;
+    margin: auto 0;
+    margin-right: 5px;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+    margin-top: 5px
+}
