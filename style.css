@@ -57,9 +57,15 @@ footer {
 .status-bar {
     background-color: #FFFD4C;
     width: 200px;
-    height: 20px;
+    height: 15px;
     margin: auto;
     border-radius: 7px;
+    text-align: center;
+    font-family: "DIN Alternate";
+    color: #03031E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .kill {
@@ -156,17 +162,19 @@ footer {
     right: 0;
     font-family: 'DIN Alternate';
     color: #FCFCE1;
-    font-size: 18px;
+    font-size: 22px;
     text-align: right;
     margin: auto 0;
     margin-right: 5px;
 }
 
 .logo {
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    top: 0;
-    margin-left: 5px;
-    margin-top: 5px
+    width: 70px;
+    height: 70px;
+}
+
+.top-left-element {
+    position: fixed;
+    top: 5px;   /* Vertical distance from the top edge */
+    left: 5px;  /* Horizontal distance from the left edge */
 }

@@ -132,6 +132,20 @@ function decrementSeconds() {
 
 function changeTimerState(to) {
     timerState = to
+
+    let statusText = document.querySelector(".status-text")
+
+    if (timerState === "green") {
+        statusText.textContent = "Running"
+    }
+
+    else if (timerState === "yellow") {
+        statusText.textContent = "Ready"
+    }
+
+    else {
+        statusText.textContent = "Time Elapsed"
+    }
 }
 
 function startTimer() {
